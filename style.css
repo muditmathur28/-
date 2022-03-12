@@ -156,7 +156,7 @@ hr:hover{
 /* menu btn styling */
 .menu-btn{
     color: var(--white);
-    font-size: 40px;
+    font-size: 37.5px;
     cursor: pointer;
     display: none;
     padding: 7px;
