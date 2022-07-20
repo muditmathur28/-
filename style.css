@@ -470,6 +470,27 @@ footer span a:hover{
     color: var(--cyan);
 }
 
+/* Cursor Tracker Starts */
+
+#cursor{
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid #fff;
+    transition: 0.1s;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+/* Cursor Tracker Ends */
+
+
+
+
+
+
+
 
 /* responsive media query start */
 @media (max-width: 1104px) {
