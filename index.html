@@ -47,6 +47,20 @@
 </head>
 
 <body>
+    
+    <!-- Cursor Tracker Code Starts -->
+        <div class="cursor" id="cursor"></div>
+        <script type="text/javascript">
+            var cursor = document.getElementById('cursor');
+            document.addEventListener('mousemove' , function(e){
+                var x = e.clientX;
+                var y = e.clientY
+                cursor.style.left = x + "px";
+                cursor.style.top = y + "px";
+            });
+        </script>
+        <!-- Cursor Tracker Code Ends -->
+    
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
