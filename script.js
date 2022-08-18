@@ -1,4 +1,4 @@
-// Programmed By The Bad Lad (Mudit Mathur)
+// Programmed By Mudit Mathur
 
 $(document).ready(function(){
     $(window).scroll(function(){
