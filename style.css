@@ -219,7 +219,7 @@ hr:hover {
 /* home section styling */
 .home {
     display: flex;
-    background: url("images/bg.jpg") no-repeat center;
+    background: url("images/anime.gif") no-repeat center;
     height: 100vh;
     color: var(--white);
     min-height: 500px;
