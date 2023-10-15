@@ -10,8 +10,9 @@
 }
 
 :root {
+    --yellow: yellow;
     --pink: #ff0080;
-    --cyan: #00ffff;
+    --cyan: aqua;
     --black: #111;
     --white: #fff;
     --glassback: rgba(255, 255, 255, 0);
@@ -35,7 +36,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--white);
+    background: var(--yellow);
 }
 
 /* all similar content styling codes */
@@ -167,7 +168,7 @@ hr:hover {
 }
 
 .navbar .menu li a:hover {
-    color: var(--pink);
+    color: var(--yellow);
 }
 
 .navbar.sticky .menu li a:hover {
@@ -219,7 +220,7 @@ hr:hover {
 /* home section styling */
 .home {
     display: flex;
-    background: url("images/anime.gif") no-repeat center;
+    background: url("images/animeshop.gif") no-repeat center;
     height: 100vh;
     color: var(--white);
     min-height: 500px;
@@ -255,7 +256,7 @@ hr:hover {
 }
 
 .home .home-content .text-3 span {
-    color: var(--cyan);
+    color: var(--yellow);
     font-weight: 500;
 }
 
@@ -469,7 +470,7 @@ hr:hover {
 }
 
 .projects .carousel .card:hover img {
-    border-color: var(--white);
+    border-color: var(--yellow);
 }
 
 .projects .text {
